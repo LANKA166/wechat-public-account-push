@@ -84,7 +84,7 @@ export const config = {
   CITY: "郑州",
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
+    {"type": "*生日", "name": "老婆", "year": "1998", "date": "07-19", isShowAge: true},
     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
@@ -98,7 +98,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: "4",
     
   /** 插槽 */
 
